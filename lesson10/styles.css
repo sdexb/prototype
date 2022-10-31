@@ -1,0 +1,49 @@
+body {
+    background-color: #e5e5e5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #14213d;
+
+}
+
+.site {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#logo {
+    width:100%;
+}
+
+.gallery {
+    width: 60%;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 5% 85% 10%;
+    background-color: #fca311;
+    font-size: 25pt;
+    margin:0;
+}
+
+
+footer {
+    background-color: #fca311;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+
+}
+
+
+.page-name{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
